@@ -1,0 +1,5 @@
+git init
+git add .
+git commit -m "example"
+git remote add origin "link for repository"
+git push -u origin master
