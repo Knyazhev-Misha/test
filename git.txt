@@ -1,5 +1,23 @@
+как начать работать с гитом:
+https://www.youtube.com/watch?v=JdUzxh8miQw&list=PLuY6eeDuleIOMB2R_Kky05ZfiAx2_pbAH&index=1
+
+залить новый репозиторий
 git init
 git add .
 git commit -m "example"
 git remote add origin "link for repository"
 git push -u origin master
+
+обновить
+git add .
+git commit -m "example"
+git push
+
+git clone "link for repository" // скачает репозиторий с гита
+git status // посмотреть статус
+git pull // загрузка всего с гита
+git checkout -- "file" // отмена изменений до add
+git reset "file" // убрать файл после add
+git reset -- hard HEAD^1 // возвращение к прошлому коммиту 
+git branch // создать новую ветку
+git checkout "name of branch" // перейти в ветку
